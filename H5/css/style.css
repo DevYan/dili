@@ -21,7 +21,8 @@ header, footer, article, section, nav, menu, hgroup {display: block;clear:all;}
 
 body {
 	font-size: 12px;
-	background: #f2f2f2;
+	background: #fff;
+	font-family: 'Microsoft Yahei';
 }
 a {
 	color: #2EAAE0;
@@ -33,6 +34,7 @@ header {
 	border: 1px solid #ddd;
 	padding: 5px;
 	margin-bottom: 10px;
+	font-size: 14px;
 }
 .clear: after{
 	content:".";
@@ -41,7 +43,12 @@ header {
 	display:block;
 	clear:both;
 }
-
+.txtRed{
+	color: red;
+}
+.txt-center{
+	text-align: center;
+}
 .b-item {
 	width: 44%;
 	height: 120px;
@@ -79,5 +86,68 @@ header {
 	width: 25%;
 	height: 100%;
 	float: left;
+}
+
+.commonTable {
+	width: 100%;
+	background: #fff;
+	border: 1px solid #fafafa;
+}
+.commonTable tr{
+	height: 80px;
 	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+#info{
+	background: #fff;
+	padding: 5px 0;
+}
+.info-tip {
+	font-size: 1.1em;
+	line-height: 2em;
+	padding: 5px 10px;
+}
+#info-table {
+	width: 100%;
+	margin: 5px 0;
+}
+#info-table td{
+	border: 1px solid #ddd;
+	height: 30px;
+	text-indent: 0.5em;
+}
+.btnOp{
+	text-align: center;
+	cursor: pointer;
+	font-size: 1.2em;
+	color: #3D98FF;
+}
+.detail {
+	line-height: 2em;
+	font-size: 1.3em;
+	padding-left: 2em;
+}
+.table-free {
+	width: 100%;
+}
+.table-free tr {
+	height: 30px;
+}
+.table-free td {
+	padding-left: 1em;
+}
+.doc-table td{
+	padding: 0.5em 0;
+}
+.td-top {
+	vertical-align: top;
+	border-right-width: 0 !important;
+}
+.inn-list p{
+	line-height: 2em;
+}
+#info .tr-high {
+	height: 200px
 }
