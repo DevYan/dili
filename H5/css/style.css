@@ -1,0 +1,83 @@
+/*reset*/
+body,nav,dl,dt,dd,p,h1,h2,h3,h4,ul,ol,li,input,button,textarea,footer{margin:0;padding:0}
+body{font:16px/1.5 'Microsoft Yahei','Simsun';  color:#333;background:#fff;-webkit-text-size-adjust: none; min-width:320px;}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+form{display:inline}
+ul,ol{list-style:none}
+a{text-decoration:none;color:#1a1a1a}
+a:hover, a:active, a:focus{color:#1c5aa2;text-decoration: none;}
+a:active{color:#aaa;}
+img{vertical-align:middle;border:0;-ms-interpolation-mode:bicubic;}
+button,input,select,textarea{font-size:100%; vertical-align:middle;outline:none;}
+textarea{resize:none}
+button,input[type="button"],input[type="reset"],input[type="submit"] {cursor:pointer;-webkit-appearance:button;-moz-appearance:button}
+input:focus:-moz-placeholder,input:focus::-webkit-input-placeholder {color:transparent}
+button::-moz-focus-inner,input::-moz-focus-inner { padding:0; border:0}
+table { border-collapse:collapse; border-spacing:0}
+.fl{float:left;}.fr{float:right;}.hide{display:none;}.show{display: block;}
+.ellipsis { white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
+.break { word-break:break-all; word-wrap:break-word}
+header, footer, article, section, nav, menu, hgroup {display: block;clear:all;}
+
+body {
+	font-size: 12px;
+	background: #f2f2f2;
+}
+a {
+	color: #2EAAE0;
+	line-height: 1.5em;
+}
+header {
+	text-align: center;
+	color: #3D98FF;
+	border: 1px solid #ddd;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.clear: after{
+	content:".";
+	height:0;
+	visibility:hidden;
+	display:block;
+	clear:both;
+}
+
+.b-item {
+	width: 44%;
+	height: 120px;
+	float: left;
+	margin:1% 3%;
+	border-radius: 8px;
+}
+#b-1 {
+	background: #FF697A;
+}
+#b-2	{
+	background: #3D98FF;
+}
+#b-3 {
+	background: #5EBE00;
+}
+#b-4 {
+	background: #FC9720;
+}
+
+.bar {
+	text-align: center;
+	font-weight: bold;
+	color: #868686;
+	margin: 10px 0;
+}
+
+.option {
+	height: 60px;
+	border: 1px solid #ddd;
+	background: #fff;
+}
+.o-item{
+	padding: 0.2em 0;
+	width: 25%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
