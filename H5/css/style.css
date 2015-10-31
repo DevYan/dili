@@ -20,7 +20,7 @@ table { border-collapse:collapse; border-spacing:0}
 header, footer, article, section, nav, menu, hgroup {display: block;clear:all;}
 
 body {
-	font-size: 12px;
+	font-size: 14px;
 	background: #fff;
 	font-family: 'Microsoft Yahei';
 }
@@ -150,4 +150,116 @@ header {
 }
 #info .tr-high {
 	height: 200px
+}
+
+/*登录*/
+.common-table {
+	width: 100%;
+	margin-top: -10px;
+}
+.common-table td{
+	text-align: center;
+	border: 1px solid #ddd;
+	height: 3em;
+}
+.common-table td input {
+    height: 2em;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.common-table .warm-tip{
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-indent: 1em;
+}
+.common-table .input-holder {
+	width: 128px;
+	margin: 0 auto;
+	position: relative;
+}
+.common-table .exp-word {
+	position: absolute;
+	right: -6em;
+	top: 0;
+	line-height: 26px;
+}
+.f-item {
+	color: #3D98FF;
+}
+.vip-td {
+	background: #FC9720;
+	color: #fff;
+}
+.insure-content{
+	display: none;
+}
+.common-left td{
+	text-align: left;
+	padding-left: 2em;
+}
+.common-table .trigger{
+	width: 24px;
+    display: inline-block;
+    height: 24px;
+    vertical-align: middle;
+    background: url(../img/down.png) no-repeat;
+}
+.common-table .left-tr td{
+	text-align: left;
+	padding-left: 1em;
+}
+.common-left .active{
+	background: url(../img/up.png) no-repeat;
+}
+.common-left .insure-content {
+	padding:0.2em 1em;
+	background: #ddd;
+	color: #333;
+	border-radius: 5px;
+	margin: 5px;
+}
+.btn-bottom {
+	width: 50%;
+	float: left;
+	height: 45px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	line-height: 45px;
+}
+.btn-bottom .small {
+	font-size: 12px;
+}
+.btn-bottom-l {
+	background: #000;
+}
+.btn-bottom-r {
+	background: #F14949;
+}
+.insure-people {
+	font-size: 16px;
+	margin: 10px 0;
+}
+.insure-people .symbol {
+	font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    line-height: 23px;
+    color: #fff;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.insure-people .jian {
+	background: red;
+}
+.insure-people .add {
+	background: green;
+}
+.insure-people .user {
+	margin-right: 10px;
 }
