@@ -174,15 +174,9 @@ header {
 	font-size: 1.2em;
 	text-indent: 1em;
 }
-.common-table .input-holder {
-	width: 128px;
-	margin: 0 auto;
-	position: relative;
-}
 .common-table .exp-word {
 	position: absolute;
-	right: -6em;
-	top: 0;
+	right: 0.5em;
 	line-height: 26px;
 }
 .f-item {
@@ -262,4 +256,8 @@ header {
 }
 .insure-people .user {
 	margin-right: 10px;
+}
+
+#contact-table td {
+	padding-left: 0;
 }
