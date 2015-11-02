@@ -41,4 +41,10 @@ $(function(){
  	var num =  $(this).siblings('.num').html();
  	$(this).siblings('.num').html(++num);
  });
+/*
+ * 回退
+ */
+ $('.backBtn').click(function(){
+ 	window.history.back();
+ });
 })
