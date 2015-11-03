@@ -47,4 +47,13 @@ $(function(){
  $('.backBtn').click(function(){
  	window.history.back();
  });
+/*
+ * 显示隐藏密码
+ */
+ $('.showPwd').click(function(){
+ 	$(this).parent().siblings('input').attr('type','text');
+ });
+ $('.hidePwd').click(function(){
+ 	$(this).parent().siblings('input').attr('type','password');
+ });
 })

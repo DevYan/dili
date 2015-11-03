@@ -158,7 +158,22 @@ header {
 	width: 100%;
 	margin-top: -10px;
 }
-.common-table td{
+.common-footer {
+	width: 100%;
+}
+.common-table .tr-high {
+	height: 80px;
+}
+.common-table .index-td {
+	text-align: left;
+	padding-left: 5px;
+}
+.common-table .tr-high img{
+	width: 60px;
+	height: 60px;
+	text-align: left;
+}
+.common-table td,.common-footer td{
 	text-align: center;
 	border: 1px solid #ddd;
 	height: 3em;
@@ -186,6 +201,24 @@ header {
 .vip-td {
 	background: #FC9720;
 	color: #fff;
+}
+.vip-blue {
+	background: #3A95F3;
+	text-align: center;
+	color: #fff;
+}
+.vip-blue a,.vip-td a {
+  color: #fff;
+}
+.switch {
+	position: absolute;
+	right: 0;
+	top: 9px;
+}
+.icon {
+	width:24px;
+	height: 24px;
+	margin-right: 10px;
 }
 .insure-content{
 	display: none;
