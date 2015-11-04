@@ -13,27 +13,43 @@
 	<section id="info">
 		<table id="info-table">
 			<tr>
-				<td width="20%"  class="txtRed">计入房费</td>
-				<td width="80%"  class="txtRed">[￥<input type="text" style="width:80px">] <em>（上限5000元）</em></td>
+				<td width="25%"  class="txtRed">红包费用</td>
+				<td width="75%"  class="txtRed">[￥<input id="num1" type="text" style="width:60px">] <em>（上限3000元）</em></td>
 			</tr>
 			<tr>
 				<td>收到红包</td>
-				<td>￥<input type="text" style="width:80px">（差额￥20为相关税费）</td>
+				<td>￥<input id="num2" type="text" style="width:60px">（差额￥20为相关税费）</td>
 			</tr>
 			<tr>
 				<td class="txtRed">入住酒店</td>
-				<td><a href="酒店介绍.html" class="txtRed">北京市京仪大酒店>></a></td>
+				<td><a href="选择入住酒店.html" class="txtRed">选择</a></td>
 			</tr>
 			<tr>
 				<td>房间号</td>
-				<td>729</td>
+				<td><input type="text" placeholder="请输入房间号"></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					温馨提示：您支付的红包费用将计入房费结算。
+				</td>
 			</tr>
 		</table>
-		<p class="btn-bottom btn-bottom-l">保费 ¥ 90
-		</p>
-		<p class="btn-bottom btn-bottom-r">
+		<p class="btn-bottom btn-bottom-r" style="width:100%">
 			<a href="订单.html" style="color:#fff">微信支付</a>
 		</p>
+		<table class="common-footer">
+			<tr>
+				<td width="33%" class='f-item'><a href="首页.html">首页</a></td>
+				<td width="33%" class='f-item f-bill'>
+					订单
+					<div class="bill-box"></div>
+				</td>
+				<td width="34%" class='f-item f-my'>
+					我的
+					<div class="my-box"></div>
+				</td>
+			</tr>
+		</table>
 	</section>
 </body>
 </html>

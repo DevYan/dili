@@ -12,28 +12,58 @@
 	<header><span class="backBtn"></span>选择入住酒店</header>
 	<section id="info">
 		<p class="info-tip">
-			扫酒店二维码
+			收藏
+		</p>
+		<p class="info-tip">
+			扫酒店二维码<img src="./img/erwei.png" alt="">
 		</p>
 		<table id="info-table">
 			<tr>
-				<td>[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]省[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]市 [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]区/县</td>
+				<td>
+					<input type="text" class="inline-input">省
+					<input type="text" class="inline-input">市
+					<input type="text" class="inline-input">区/县
+				</td>
 			</tr>
 			<tr>
-				<td><input type="text" placeholder="输入关键字搜索"><span class="txtRed">搜索</span></td>
+				<td>
+					<input type="text" value="500" class="inline-input">元
+					——
+					<input type="text" value="1000" class="inline-input">元
+				</td>
 			</tr>
 			<tr>
+				<td>
+					<input type="text" placeholder="输入关键字搜索">
+					<span class="txtRed">搜索</span>
+				</td>
+			</tr>
+			<!-- <tr>
 				<td colspan="2">
 					<p style="line-height:2em;">
 						<input type="radio" name="" id="">北京如家酒店阜成门店<span style="font-weight=bold">（北京市西城区阜成门外大街）</span></p>
 					<p style="line-height:2em;"><input type="radio" name="" id="">北京如家酒店花园路店<span style="font-weight=bold">（北京市海淀区阜成门外大街）</span></p>
 				</td>
+			</tr> -->
+			<tr>
+				<td class="vip-td" style="text-align:center;">
+					<a href="酒店列表.html">查询</a>
+				</td>
 			</tr>
 		</table>
-		<p class="btn-bottom btn-bottom-l">保费 ¥ 90
-	</p>
-	<p class="btn-bottom btn-bottom-r">
-		<a href="订单详情.html" style="color:#fff">下一步</a>
-	</p>
+		<table class="common-footer">
+			<tr>
+				<td width="33%" class='f-item'><a href="首页.html">首页</a></td>
+				<td width="33%" class='f-item f-bill'>
+					订单
+					<div class="bill-box"></div>
+				</td>
+				<td width="34%" class='f-item f-my'>
+					我的
+					<div class="my-box"></div>
+				</td>
+			</tr>
+		</table>
 	</section>
 </body>
 </html>

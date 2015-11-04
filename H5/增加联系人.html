@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
 	<title>增加联系人</title>
 	<link type="text/css" rel="stylesheet" href="css/style.css">
-	<style src="js/jquery.min.js"></style>
+	<script src="js/jquery.min.js"></script>
 	<script src="js/main.js"></script>
 </head>
 <body>
@@ -13,14 +13,24 @@
 	<section id="info">
 		<table class="common-table">
 			<tr>
-				<td  style="text-align:left;line-height:2em;padding-left:1em;">
-					<p>姓名：</p>
-					<p>证件类型：身份证/护照/台港澳通行证</p>
-					<p>证件号码： </p>
+				<td>
+					姓名：<input type="text">
 				</td>
 			</tr>
 			<tr>
-				<td>增加</td>
+				<td>
+					证件类型：<input type="text" placeholder="身份证/护照/台港澳通行证">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					证件号码： <input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td class="vip-td">
+					<a href="联系人.html">增加</a>
+				</td>
 			</tr>
 		</table>
 	</section>

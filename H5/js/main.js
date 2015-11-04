@@ -4,11 +4,14 @@ $(function(){
  */
  //订单
  $('.f-bill').click(function(){
- 	$('.bill-box').empty().append($('<p><a href="如何理赔.html">如何理赔</></p>'));
+ 	$('.f-bill').empty()
+ 	.append($('<p><a href="订单.html">订单</></p>'))
+ 	.append($('<p><a href="如何理赔.html">如何理赔</></p>'));
  });
  //我的
  $('.f-my').click(function(){
- 	$('.my-box').empty()
+ 	$('.f-my').empty()
+ 	.append($('<p><a href="我的.html">我的</></p>'))
  	.append($('<p><a href="联系人.html">联系人</></p>'))
  	.append($('<p><a href="登录.html">登录</></p>'))
  	.append($('<p><a href="#">退出</></p>'));
@@ -56,4 +59,10 @@ $(function(){
  $('.hidePwd').click(function(){
  	$(this).parent().siblings('input').attr('type','password');
  });
+/*
+ * 红包费
+ */
+ $('#num1').change(function(){
+ 	console.log('2222');
+ })
 })

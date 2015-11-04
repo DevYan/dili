@@ -9,11 +9,23 @@
 	<script src="js/main.js"></script>
 </head>
 <body>
-	<header><span class="backBtn"></span>旅游意外保险</header>
+	<header><span class="backBtn"></span>填写保单</header>
 	<table class="common-table">
 		<tr>
+			<td colspan="2">平安旅游意外保险</td>
+		</tr>
+		<tr>
 			<td width="30%">保险期间</td>
-			<td width="70%">3天 > （5天/7天/10天/15天）</td>
+			<td width="70%">
+				<select name="" id="" style="width:80%;">
+					<option value="">3天</option>
+					<option value="">5天</option>
+					<option value="">7天</option>
+					<option value="">10天</option>
+					<option value="">15天</option>
+					<option value="">20天</option>
+				</select>
+		</td>
 		</tr>
 		<tr>
 			<td width="30%">保险开始</td>
@@ -23,12 +35,66 @@
 			<td width="30%">保险结束</td>
 			<td width="70%">2015-10-31-24:00</td>
 		</tr>
+		<tr>
+			<td width="30%">被保人</td>
+			<td width="70%">
+				<p class="insure-people">
+					<span class="user">张三</span>
+					<span class="jian symbol">-</span>
+					<span class="num">1</span>
+					<span class="add symbol">+</span>
+					<span class="del">删除</span>
+				</p>
+				<p class="insure-people">
+					<span class="user">李四</span>
+					<span class="jian symbol">-</span>
+					<span class="num">2</span>
+					<span class="add symbol">+</span>
+					<span class="del">删除</span>
+				</p>
+				<p>
+					<a href="联系人.html" style="font-size:25px">+</a>
+				</p>
+			</td>
+			<tr>
+				<td>计入房费</td>
+				<td style="text-align:left;padding-left:2em;">
+					<input type="radio" name="fee" id="" checked>是
+					<input type="radio" name="fee" id="" style="margin-left:10px;">否
+				</td>
+			</tr>
+			<tr>
+				<td>入住酒店</td>
+				<td><a href="选择入住酒店.html">选择</a></td>
+			</tr>
+			<tr>
+				<td>房间号</td>
+				<td><input type="text" placeholder="请输入房间号"></td>
+			</tr>
+			<tr>
+				<td>投保人手机</td>
+				<td>13902818586</td>
+			</tr>
+		</tr>
 	</table>
-	<p class="btn-bottom btn-bottom-l">每份¥ 18
-		<span class="small">（30,42,60,90）</span>
+	<p class="btn-bottom btn-bottom-l">
+		<a href="旅游意外保险.html" style="color:#fff">上一步</a>
 	</p>
 	<p class="btn-bottom btn-bottom-r">
-		<a href="旅游意外保险3.html" style="color:#fff">立即投保</a>
+		<a href="领红包.html" style="color:#fff">微信支付</a>
 	</p>
+	<table class="common-footer">
+		<tr>
+			<td width="33%" class='f-item'><a href="首页.html">首页</a></td>
+			<td width="33%" class='f-item f-bill'>
+				订单
+				<div class="bill-box"></div>
+			</td>
+			<td width="34%" class='f-item f-my'>
+				我的
+				<div class="my-box"></div>
+			</td>
+		</tr>
+	</table>
 </body>
 </html>
