@@ -336,3 +336,41 @@ td .inline-input {
 	float: right;
 	margin-right: 20px;
 }
+.common-table .tr-left td{
+	text-align: left;
+	padding-left: 10px;
+}
+.checkNum {
+	font-size: 0.8em;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.table-left td {
+	text-align: left;
+}
+.pull-right {
+	float: right;
+	margin-right: 5px;
+}
+.pull-left {
+	float: left;
+	margin-left: 5px;
+}
+.pay {
+	padding: 5px 10px;
+	color: #fff;
+	background: #FD8C31;
+}
+.photo-table {
+	width: 100%;
+	background: #ddd;
+	color: #333;
+}
+.photo-table td {
+	padding: 6px 0;
+	text-align: center;
+	font-size: 1.1em;
+	border: 1px solid #999;
+}
