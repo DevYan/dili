@@ -130,6 +130,9 @@ header {
 	font-size: 1.3em;
 	padding-left: 2em;
 }
+.common-table .table-free td {
+	border-width: 0;
+}
 .table-free {
 	width: 100%;
 }

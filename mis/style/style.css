@@ -126,9 +126,17 @@ input, select {
     font-size: 1.2em;
     line-height: 2.2em;
 }
+.nav .subMenu{
+    display: none;
+}
+.active .subMenu {
+    display: block;
+}
 .subMenu {
     font-size: 14px;
     text-indent: 2em;
+    display: none;
+    height: 20px;
 }
 .inner-table {
     width: 100%;
@@ -154,4 +162,8 @@ input, select {
 }
 #addTable .title,#addTable .nav {
     text-align: center;
+}
+.main .no-boder {
+    border-top-width: 0;
+    border-bottom-width: 0;
 }
