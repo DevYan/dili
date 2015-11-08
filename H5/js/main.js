@@ -66,19 +66,6 @@ $(function(){
  	console.log('2222');
  })
 /*
- * 切换标准豪华版
- */
- $('.v-basic').click(function(){
- 	$('.version li').removeClass('active');
- 	$(this).addClass('active');
- 	$('.price-num').html(18);
- });
- $('.v-rich').click(function(){
- 	$('.version li').removeClass('active');
- 	$(this).addClass('active');
- 	$('.price-num').html(30);
- });
-/*
  * 计入房费
  */
  $('.yesFee').click(function(){
