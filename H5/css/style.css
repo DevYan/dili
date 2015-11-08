@@ -366,6 +366,9 @@ td .inline-input {
 	color: #fff;
 	background: #FD8C31;
 }
+.pay a{
+	color: #fff;
+}
 .photo-table {
 	width: 100%;
 	background: #ddd;
@@ -376,4 +379,22 @@ td .inline-input {
 	text-align: center;
 	font-size: 1.1em;
 	border: 1px solid #999;
+}
+.version {
+	width: 100%;
+	margin-top: -10px;
+}
+.version li {
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding: 5px  0;
+	background: #F7F7F9;
+}
+.version .active {
+	background: #D9EDF7;
+}
+.border-style td{
+	padding-bottom: 10px;
+	border-bottom: 2px dashed #ccc;
 }

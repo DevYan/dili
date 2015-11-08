@@ -22,4 +22,11 @@ $(function(){
  		+'<p class="subMenu"><a href="网站后台页面20.html">下架商品</a></p>'
  	+'</div>'
  	));
+/*
+ * 切换显示详情
+ */
+ $('.trigger').click(function(){
+ 	$('.innBox').slideToggle();
+ 	$(this).toggleClass('active');
+ });
 })

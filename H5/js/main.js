@@ -3,19 +3,19 @@ $(function(){
  *菜单折叠
  */
  //订单
- $('.f-bill').click(function(){
- 	$('.f-bill').empty()
- 	.append($('<p><a href="订单.html">订单</></p>'))
- 	.append($('<p><a href="如何理赔.html">如何理赔</></p>'));
- });
+ // $('.f-bill').click(function(){
+ // 	$('.f-bill').empty()
+ // 	.append($('<p><a href="订单.html">订单</></p>'))
+ // 	.append($('<p><a href="如何理赔.html">如何理赔</></p>'));
+ // });
  //我的
- $('.f-my').click(function(){
- 	$('.f-my').empty()
- 	.append($('<p><a href="我的.html">我的</></p>'))
- 	.append($('<p><a href="联系人.html">联系人</></p>'))
- 	.append($('<p><a href="登录.html">登录</></p>'))
- 	.append($('<p><a href="#">退出</></p>'));
- });
+ // $('.f-my').click(function(){
+ // 	$('.f-my').empty()
+ // 	.append($('<p><a href="我的.html">我的</></p>'))
+ // 	.append($('<p><a href="联系人.html">联系人</></p>'))
+ // 	.append($('<p><a href="登录.html">登录</></p>'))
+ // 	.append($('<p><a href="#">退出</></p>'));
+ // });
  //酒店
  $('.f-inn').click(function(){
  	$('.inn-box').empty()
@@ -65,4 +65,26 @@ $(function(){
  $('#num1').change(function(){
  	console.log('2222');
  })
+/*
+ * 切换标准豪华版
+ */
+ $('.v-basic').click(function(){
+ 	$('.version li').removeClass('active');
+ 	$(this).addClass('active');
+ 	$('.price-num').html(18);
+ });
+ $('.v-rich').click(function(){
+ 	$('.version li').removeClass('active');
+ 	$(this).addClass('active');
+ 	$('.price-num').html(30);
+ });
+/*
+ * 计入房费
+ */
+ $('.yesFee').click(function(){
+ 	$('.innArea').show();
+ });
+ $('.noFee').click(function(){
+ 	$('.innArea').hide();
+ });
 })
