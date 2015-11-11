@@ -74,4 +74,10 @@ $(function(){
  $('.noFee').click(function(){
  	$('.innArea').hide();
  });
+/*
+ * 全选
+ */
+ $('.selectAll').click(function(){
+ 	$('input[type="checkbox"]').attr('checked',true);
+ });
 })
