@@ -398,3 +398,8 @@ td .inline-input {
 	padding-bottom: 10px;
 	border-bottom: 2px dashed #ccc;
 }
+.phoneFast {
+	width: 80px;
+	padding: 5px 10px;
+	border: 1px solid orange;
+}
