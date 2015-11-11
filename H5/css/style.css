@@ -142,6 +142,9 @@ header {
 .table-free td {
 	padding-left: 1em;
 }
+.table-free .tr-bottom {
+	border-bottom: 1px solid #ddd;
+}
 .doc-table td{
 	padding: 0.5em 0;
 }
@@ -332,6 +335,10 @@ td .inline-input {
 	text-align: center;
 }
 .user-table .linkTr {
+	display: block;
+	background: url(../img/right.png) right center no-repeat;
+}
+.linkTr {
 	display: block;
 	background: url(../img/right.png) right center no-repeat;
 }
