@@ -417,3 +417,14 @@ td .inline-input {
 	text-align: center;
 	padding: 5px 0;
 }
+
+#left-table td {
+	text-align: left;
+	padding-left: 0.5em;
+}
+.imgr {
+	float: right;
+	margin-right: 10px;
+	margin-top: 3px;
+	color: red;
+}
